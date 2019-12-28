@@ -1,0 +1,19 @@
+1. select first_name as WORKER_NAME from worker;
+
+2. select upper(first_name) from worker;
+
+3. select distinct department from worker;
+
+4. Select substr(FIRST_NAME,1,3) from Worker;
+
+5. select INSTR(FIRST_NAME, BINARY'a') from Worker where FIRST_NAME = 'Amitabh';
+
+6. select RTRIM(FIRST_NAME) from Worker;
+
+7. Select LTRIM(DEPARTMENT) from Worker;
+
+8. Select distinct length(DEPARTMENT) from Worker;
+
+9. Select REPLACE(FIRST_NAME,'a','A') from Worker;
+
+10. Select CONCAT(FIRST_NAME, ' ', LAST_NAME) AS 'COMPLETE_NAME' from Worker;
