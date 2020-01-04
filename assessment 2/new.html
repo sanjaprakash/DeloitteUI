@@ -1,0 +1,194 @@
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>memories</title>
+</head>
+<body>
+    <header>
+        <marquee> <img src="logo.jpg" width="120px" height="120px" align="center"></marquee>
+     </header>
+   <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a class="active" href="#plants">Plants</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<div class="flowers">
+    <h1>FLOWERS</h1>
+    <p><b>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to affect reproduction, usually by providing a mechanism for the union of sperm with eggs. Flowers may facilitate outcrossing (fusion of sperm and eggs from different individuals in a population) or allow selfing (fusion of sperm and egg from the same flower). Some flowers produce diaspores without fertilization (parthenocarpy). Flowers contain sporangia and are the site where gametophytes develop. Many flowers have evolved to be attractive to animals, so as to cause them to be vectors for the transfer of pollen. After fertilization, the ovary of the flower develops into fruit containing seeds.</b></p>
+</div>
+
+<table width="100%"><tr><td>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="rose.jpg" alt="Rose" style="width:300px;height:200px;">
+    </div>
+    <div class="flip-card-back">
+     <p>A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over three hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles</p>
+</div>
+  </div>
+</div></td>
+<td>
+<div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="marigold.jpg" alt="marigold" style="width:300px;height:200px;">
+      </div>
+      <div class="flip-card-back">
+        <p>Tagetes is a genus of annual or perennial, mostly herbaceous plants in the sunflower family. It was described as a genus by Carl Linnaeus in 1753. The genus is native of south of México, but some species have become naturalized around the world.</p>
+      </div>
+    </div>
+  </div>
+  </td>
+  <td>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="lilly.jpg" alt="Avatar" style="width:300px;height:200px;">
+        </div>
+        <div class="flip-card-back">
+         <p>Lilium is a genus of herbaceous flowering plants growing from bulbs, all with large prominent flowers. Lilies are a group of flowering plants which are important in culture and literature in much of the world.</p>
+        </div>
+      </div>
+    </div>
+  </div></td>
+  </tr>
+  <tr>
+  <td>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="jasmine.jpg" alt="Avatar" style="width:300px;height:200px;">
+      </div>
+      <div class="flip-card-back">
+        <p>Jasminum sambac is a species of jasmine native to tropical Asia, from the Indian subcontinent to Southeast Asia. It is cultivated in many places, especially across much of South and Southeast Asia</p>
+      </div>
+    </div>
+  </div>
+  </td>
+  <td>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="hibiscus.jpg" alt="Avatar" style="width:300px;height:200px;">
+      </div>
+      <div class="flip-card-back">
+       <p>Hibiscus is a genus of flowering plants in the mallow family, Malvaceae. The genus is quite large, comprising several hundred species that are native to warm temperate, subtropical and tropical regions throughout the world.</p>
+      </div>
+    </div>
+  </div>
+</div></td>
+<td>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="lotus.jpg" alt="Avatar" style="width:300px;height:200px;">
+        </div>
+        <div class="flip-card-back">
+         <p>Nelumbo nucifera, also known as Indian lotus, sacred lotus, bean of India, Egyptian bean or simply lotus, is one of two extant species of aquatic plant in the family Nelumbonaceae. It is often colloquially called a water lily.</p>
+        </div>
+      </div>
+    </div>
+  </div></td></tr>
+
+</table>
+<footer>Subjected to copyrights</footer>
+  <!-- <div class="flowers">
+      <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to affect reproduction, usually by providing a mechanism for the union of sperm with eggs. Flowers may facilitate outcrossing (fusion of sperm and eggs from different individuals in a population) or allow selfing (fusion of sperm and egg from the same flower). Some flowers produce diaspores without fertilization (parthenocarpy). Flowers contain sporangia and are the site where gametophytes develop. Many flowers have evolved to be attractive to animals, so as to cause them to be vectors for the transfer of pollen. After fertilization, the ovary of the flower develops into fruit containing seeds.</p>
+  </div> -->
+  <style>
+  .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+  }
+
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  /* background-color: #bbb;
+  color: black; */
+  /* padding:5em; */
+}
+
+.flip-card-back {
+  background-color: coral;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flowers{
+    /* text-align: left; */
+    width:100%;
+    text-align: center;
+    
+    
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width:200px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+footer{
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0.5em;
+  background-color:black;
+  color:honeydew;
+  text-align: center;
+}
+
+  </style>
+  </body>
+
